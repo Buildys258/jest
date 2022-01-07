@@ -1,0 +1,12 @@
+{
+    "presets":[
+        [
+                "@babel/preset-env",{
+                "targets":{
+                    "node":"current"
+                }
+            }
+        ]
+    ]
+}
+// 让Jest支持import和ES6语法 babel插件配置
